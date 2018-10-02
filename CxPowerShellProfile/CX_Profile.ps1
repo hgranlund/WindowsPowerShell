@@ -13,8 +13,8 @@ function Import-CxModules {
 
 # Import all modules starting with Cx
 # Use Debug-CxModules to debug failing imports
-Import-CxModules
-
+#Import-CxModules
+Write-Host 'Import all Cx-modules by running Import-CxModules'
 # Aliases
 Set-Alias -Name ll -Value 'ls'
 Set-Alias -Name chrome -Value 'C:\Program Files (x86)\Google\Chrome\Application\chrome.exe'
@@ -22,7 +22,3 @@ Set-Alias -Name grep -Description grep Select-String
 
 # Drives
 # New-PSDrive sp filesystem \\server\SP
-
-function depot() {
-    cd c:/depot
-}
