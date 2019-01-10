@@ -21,6 +21,6 @@ function note () {
 function depot() {
     cd c:/depot
 }
-function depot() {
-    cd c:/depot/timseries-api
+function time() {
+    cd c:/depot/timeseries-api
 }
